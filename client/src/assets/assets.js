@@ -37,6 +37,11 @@ import listIcon from "./listIcon.svg";
 import uploadArea from "./uploadArea.svg";
 import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
+import parkingIcon from "./parkingIcon.svg";
+import securityIcon from "./securityIcon.svg";
+import shuttleIcon from "./shuttleIcon.svg";
+import tvIcon from "./tvIcon.svg";
+import gyserIcon from "./gyserIcon.svg";
 
 export const assets = {
   logo,
@@ -71,6 +76,11 @@ export const assets = {
   uploadArea,
   totalBookingIcon,
   totalRevenueIcon,
+  parkingIcon,
+  securityIcon,
+  shuttleIcon,
+  tvIcon,
+  gyserIcon,
 };
 
 export const cities = [
@@ -86,6 +96,8 @@ export const cities = [
   "Masvingo",
   "Kariba",
   "Chinhoyi",
+  "Vic Falls",
+  "Other",
 ];
 
 // Exclusive Offers Dummy Data
@@ -154,10 +166,14 @@ export const testimonials = [
 // Facility Icon
 export const facilityIcons = {
   "Free WiFi": assets.freeWifiIcon,
-  "Free Breakfast": assets.freeBreakfastIcon,
+  Breakfast: assets.freeBreakfastIcon,
   "Room Service": assets.roomServiceIcon,
-  "Mountain View": assets.mountainIcon,
   "Pool Access": assets.poolIcon,
+  Gyser: assets.gyserIcon,
+  "DSTV/Netflix": assets.tvIcon,
+  Security: assets.securityIcon,
+  "Shuttle Service": assets.shuttleIcon,
+  "Free Parking": assets.parkingIcon,
 };
 
 // For Room Details Page
