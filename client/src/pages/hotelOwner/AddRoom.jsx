@@ -217,7 +217,7 @@ const AddRoom = () => {
 
           <div>
             <p className="mt-4 text-gray-800">
-              Price <span className="text-xs">/night</span>
+              Price <span className="text-xs"></span>
             </p>
             <input
               type="number"
