@@ -81,7 +81,7 @@ const Dashboard = () => {
               <th className="py-3 px-4 text-gray-800 font-medium">User Name</th>
               <th className="py-3 px-4 text-gray-800 font-medium">Contact</th>
               <th className="py-3 px-4 text-gray-800 font-medium max-sm:hidden">
-                BnB Name
+                Place Name
               </th>
               <th className="py-3 px-4 text-gray-800 font-medium text-center">
                 Amount
